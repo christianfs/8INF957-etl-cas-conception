@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+   <book>
+      <id>bk110</id>
+      <author>O'Brien, Tim</author>
+      <title>Microsoft .NET: The Programming Bible</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publish_date>2000-12-09</publish_date>
+      <description>Microsoft's .NET initiative is explored in detail in this deep programmer's reference.</description>
+   </book>
+</catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+   <book>
+      <id>bk107</id>
+      <author>Thurman, Paula</author>
+      <title>Splish Splash</title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+      <publish_date>2000-11-02</publish_date>
+      <description>A deep sea diver finds true love twenty thousand leagues beneath the sea.</description>
+   </book>
+</catalog>

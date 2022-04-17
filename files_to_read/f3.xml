@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+   <book>
+      <id>bk109</id>
+      <author>Kress, Peter</author>
+      <title>Paradox Lost</title>
+      <genre>Science Fiction</genre>
+      <price>6.95</price>
+      <publish_date>2000-11-02</publish_date>
+      <description>After an inadvertant trip through a Heisenberg Uncertainty Device, James Salway discovers the problems of being quantum.</description>
+   </book>
+</catalog>
