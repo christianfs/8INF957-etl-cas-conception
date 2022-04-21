@@ -2,9 +2,9 @@ from datetime import datetime
 from decimal import Decimal
 from typing import Dict, List
 
-from src.errors.transform_error import TransformError
-from src.etl.contracts.extract_contract import ExtractContract
-from src.etl.contracts.transform_contract import TransformContract
+from errors.transform_error import TransformError
+from etl.contracts.extract_contract import ExtractContract
+from etl.contracts.transform_contract import TransformContract
 
 
 class TransformRawData:

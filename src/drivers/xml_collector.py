@@ -1,7 +1,7 @@
 from typing import Dict
 
 from bs4 import BeautifulSoup
-from src.drivers.interfaces.information_collector import \
+from drivers.interfaces.information_collector import \
     InformationCollectorInterface
 
 
@@ -26,4 +26,5 @@ class XmlCollector(InformationCollectorInterface):
                 }
             except AttributeError as e:
                 print(f'Error: {e}')
+                print(f'File: {file_path}')
         return information

@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 
-from src.drivers.interfaces.information_collector import InformationCollectorInterface
+from drivers.interfaces.information_collector import InformationCollectorInterface
 
 
 class JsonCollector(InformationCollectorInterface):

@@ -1,10 +1,10 @@
 from datetime import date
 from typing import Dict
 
-from src.drivers.interfaces.information_collector import \
+from drivers.interfaces.information_collector import \
     InformationCollectorInterface
-from src.errors.extract_error import ExtractError
-from src.etl.contracts.extract_contract import ExtractContract
+from errors.extract_error import ExtractError
+from etl.contracts.extract_contract import ExtractContract
 
 
 class ExtractInformation:
