@@ -2,14 +2,14 @@ from abc import ABC, abstractmethod
 from typing import Dict
 
 
-class DestinyInterface(ABC):
+class DestinationInterface(ABC):
 
     @abstractmethod
     def __init__(self, information: Dict) -> None:
         pass
 
     @abstractmethod
-    def load_to_destiny(self) -> None:
+    def load_to_destination(self) -> None:
         pass
 
     @abstractmethod

@@ -47,8 +47,7 @@ class TransformRawData:
         data = {}
         if len(names) == 2:
             data = {
-                'author_first_name': names[1],
-                'author_last_name': names[0]
+                'author_name': f'{names[1]} {names[0]}'
             }
         else:
             data = {

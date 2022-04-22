@@ -1,5 +1,5 @@
-from src.drivers.interfaces.destiny import DestinyInterface
-from src.drivers.destiny_factory import DestinyFactory
+from src.destination.interfaces.destination import DestinationInterface
+from src.destination.destination_factory import DestinationFactory
 from typing import Dict
 
 
@@ -7,5 +7,5 @@ class LoadData:
 
     @staticmethod
     def load(information: Dict) -> None:
-        destiny: DestinyInterface = DestinyFactory.get_destiny(information)
-        destiny.load_to_destiny()
+        destination: DestinationInterface = DestinationFactory.get_destination(information)
+        destination.load_to_destination()
