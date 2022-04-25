@@ -13,4 +13,4 @@ class Etl:
         extract_contract = extract_information.extract(file_path)
         transform_information = TransformRawData()
         transform_contract = transform_information.transform(extract_contract)
-        LoadData().load(transform_contract.load_content)
+        LoadData().load(transform_contract)
